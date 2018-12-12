@@ -13,7 +13,7 @@ const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 
 bot.commands = new Discord.Collection();
-let xp = require("./xp.json");
+//let xp = require("./xp.json");
 let purple = botconfig.purple;
 let cooldown = new Set();
 let cdseconds = 30;
